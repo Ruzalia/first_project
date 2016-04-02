@@ -1,0 +1,155 @@
+body{
+	margin: 0px;
+}
+
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: blue;
+	background-color: #ADD8E6;
+}
+
+a:active{
+	color: black;
+}
+
+.logo{
+	display: inline;
+	width:40%;
+}
+
+#slogan{
+	display: inline;
+	font-family: Georgia, serif, Courier, monospace;
+	line-height: 1em;
+	color: #152885;
+	font-weight:bold;
+	font-size: 60px;
+	text-shadow:0px 0px 0 rgb(-11,8,101),1px 1px 0 rgb(-32,-13,80),2px 2px 0 rgb(-54,-35,58),
+	3px 3px 0 rgb(-76,-57,36), 4px 4px 0 rgb(-98,-79,14),5px 5px 4px rgba(0,0,0,0.6),
+	5px 5px 1px rgba(0,0,0,0.5),0px 0px 4px rgba(0,0,0,.2);
+    position:absolute;
+    left: 20%;
+	top: 10%;
+}
+
+nav{
+	display: inline;
+	padding-left: 150px;
+	 position:absolute;
+	left: 10%;
+	top: 25%;
+
+}
+
+nav ul{
+	display: inline;
+}
+
+nav li{
+	display: inline-block;
+	padding: 0px  40px;
+	line-height: 1.8em;
+    font-size: 1.2em;
+    font-family: 'Open Sans', sans-serif;
+    color: #665858;
+}
+
+section{
+	padding: 20px 0px;
+}
+
+#main_image{
+	width: 100%;
+}
+
+#contr{
+	display: inline-block;
+	width:20%;
+	border: 2px solid #665858;
+	border-radius: 20px;
+	margin-left: 5px;
+	padding: 5px;
+}
+.attention{
+	font-size: 1.6em;
+	font-weight: bold;
+	color: red;
+}
+
+#contr li{
+	line-height: 1.8em;
+    font-size: 1.2em;
+    font-family: Arial;
+}
+
+#main{
+	display: inline-block;
+	width:72%;
+	padding: 0px 30px;
+	position: absolute;
+	top: 140%;
+}
+
+.text_content{
+	line-height: 1.8em;
+    font-size: 1.1em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+h1{
+	text-align: center;
+	font-size: 3em;
+}
+
+table{
+width: 100%;
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+.price{
+	text-align: right;
+}
+
+.inform_block{
+	display: inline-block;
+	border: 0.1px solid #665858;
+	border-radius: 20px;
+	padding: 5px;
+	margin: 0px 20px;
+	text-align: center;
+	line-height: 1.8em;
+    font-size: 1.2em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.block_name{
+	 font-size: 1.4em;
+	font-weight: bold;
+	color: #152885;
+}
+
+.more{
+	color: #152885;
+}
+
+hr{
+	width: 90%;
+}
+
+footer{
+	background:  #152885;
+	padding: 20px 0px;
+}
+
+.bottom p
+{
+	text-align: center;
+	line-height: 1.8em;
+    font-size: 1.2em;
+    font-family: 'Open Sans', sans-serif;
+    color: #665858;
+}
