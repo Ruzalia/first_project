@@ -64,7 +64,7 @@ section{
 #contr{
 	display: inline-block;
 	width:20%;
-	border: 2px solid #665858;
+	border: 2px solid #ADD8E6;
 	border-radius: 20px;
 	margin-left: 5px;
 	padding: 5px;
@@ -93,8 +93,8 @@ padding: 10px;
 
 .text_content{
 	line-height: 1.8em;
-    font-size: 1.1em;
-    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    font-family:DejaVu Sans;
 	padding: 0% 7%;
 }
 
@@ -116,9 +116,10 @@ border-spacing: 0;
 
 .inform_block{
 	display: inline-block;
-	border: 0.1px solid #665858;
+	border: 0.1px solid #ADD8E6;
 	border-radius: 20px;
-	margin: 0px 50px;
+	margin: 0px 40px;
+	padding:0px 5px;
 	text-align: center;
 	line-height: 1.8em;
     font-size: 1.2em;
@@ -140,6 +141,7 @@ hr{
 }
 
 footer{
+	margin-top: 20px;
 	background:  #152885;
 	padding: 20px 0px;
 }

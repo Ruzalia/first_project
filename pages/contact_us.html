@@ -46,18 +46,18 @@ Trainings at airfield: Saturday, Sunday - start at 8.00 am. Jumpings - Saturday,
 			<div id="contact">
 			<p class="form_name">Contact us</p>
 			<form name="inquiry_form" method="Post">
-				<p>Name*:<input type="text" name="name" required/></p>
-				<p>E-mail*:<input type="email" name="email" required/></p>
+				<p id="name">Name*:<input type="text" name="name" required/></p>
+				<p id="mail">E-mail*:<input id="email" type="email" name="email" required/></p>
 				<p>What is the subject of your inquiry?*</p>
-				<select name="subject" rows="3" required>
-					<option value="booking">Booking</option>
+				<select multiple name="subject" rows="3" required>
+					<option value="booking" selected>Booking</option>
 					<option value="gift">Gift Voucher</option>
 					<option value="general">General Information</option>
 				</select>
 				<p>Message*:</p><textarea rows="7" cols="60" required></textarea>
-				<p><input type="checkbox" name="delivery" value="1"/>Do you want to receive specials and news from Skydive center?
+				<p><input id="check" type="checkbox" name="delivery" value="1"/>Do you want to receive specials and news from Skydive center?
 				</p>
-				<p><input type="submit" name="submit" value="Submit" ></p>
+				<p><input id="button" type="submit" name="submit" value="Submit" ></p>
 			</form>
 				
 			</div>

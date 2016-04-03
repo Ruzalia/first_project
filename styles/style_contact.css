@@ -71,8 +71,8 @@ section{
 
 .text_content{
 	line-height: 1.8em;
-    font-size: 1.1em;
-    font-family:'Open Sans', sans-serif;
+    font-size: 1.2em;
+    font-family:DejaVu Sans;
     padding: 0px 40px;
 }
 
@@ -109,11 +109,63 @@ form{
 	font-weight: bold;
 }
 
+select{
+	display: block;
+	width: 200px;
+    height: 70px; 
+    padding: 5px;
+}
+
+input, select, textarea{
+font-family: DejaVu Sans;
+font-size: 16px;
+padding: 0px 2px;
+}
+
+#check{
+margin-right: 10px;
+transform: scale(2);
+height:12px;
+width:12px;
+}
+
+#name,#mail{
+display:inline-block;
+}
+
+#mail{
+margin-left:15px;
+}
+
+#email{
+width: 250px;
+}
+
+#button{
+margin-left:35%;
+width: 140px;
+height: 40px;
+font-size: 20px;
+text-align:center;
+border-radius: 10px;
+background-color: #F0FFFF;
+}
+
+#button:hover{
+background-color: #ADD8E6;
+}
+
+#button:active{
+background-color: #40E0D0;
+}
+
+
 hr{
 	width: 90%;
 }
 
 footer{
+	margin-top: 20px;
 	background:  #152885;
 	padding: 20px 0px;
 }
